@@ -6,6 +6,8 @@ public class variable{
         System.out.println(b);
         String name = " chandresh";
         System.out.println(name);
+        b =  a;
+        System.out.println(b);
 
     }
 }
