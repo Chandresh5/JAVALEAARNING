@@ -5,10 +5,10 @@ public class conversion{
            System.out.println("enter the value of a :");
         int a = mk.nextInt();
         System.out.println("this float value");
-        
-        long b = a;
+         float b=a;
+     
         System.out.println("this long value");
-        float c =b;
+       long c = (long)b;
         System.out.println("this long value");
 
         double d = c;
