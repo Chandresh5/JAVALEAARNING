@@ -22,7 +22,7 @@ public class CombineConstructors{
         this.roll = other.roll;
     }
     Student(){
-        this("unknow",0); // yah default  constructure hai 
+    this("unknow",0); // yah default  constructure hai 
     }
     void display(){
          System.out.println("Name: " + name + ", Roll No: " + roll);
